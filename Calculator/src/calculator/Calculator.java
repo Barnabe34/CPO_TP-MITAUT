@@ -29,7 +29,7 @@ public class Calculator {
         Scanner sc = new Scanner(System.in);
         operateur = sc.nextInt();
         
-        if (operateur != 1 &&operateur != 2 &&operateur != 3 &&operateur != 4 &&operateur != 5 ); {
+        if (operateur != 1 && operateur != 2 && operateur != 3 && operateur != 4 && operateur != 5 ) {
                 System.out.println("ERREUR RECOMMENCEZ");
                 System.exit(0);
     }
@@ -37,23 +37,23 @@ public class Calculator {
         System.out.println("Entrer votre premier nombre : ");
         operande1 = sc.nextFloat();
         
-        System.out.println("Entrez votre deuxième nombre : ");
+        System.out.println("Entrez votre deuxieme nombre : ");
         operande2 = sc.nextFloat();
         
-        System.out.println("Résultat : ");
-        if (operateur == 1); {
+        System.out.println("Resultat : ");
+        if (operateur == 1) {
                 System.out.println(operande1 + operande2);
     }
-        if (operateur == 2); {
+        if (operateur == 2) {
                 System.out.println(operande1 - operande2);
                 }
-        if (operateur == 3); {
+        if (operateur == 3) {
                 System.out.println(operande1*operande2);
                 }
-        if (operateur == 4); {
+        if (operateur == 4) {
                 System.out.println(operande1/operande2);
                 } 
-        if (operateur == 5); {
+        if (operateur == 5) {
                 System.out.println(operande1%operande2);
                 }
     }
