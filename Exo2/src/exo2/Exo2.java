@@ -15,7 +15,6 @@ public class Exo2 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-       public static void main(String[] args) {
 //Declaration des variables
 int nb; // nombre dentiers a additionner
 int result; // resultat
