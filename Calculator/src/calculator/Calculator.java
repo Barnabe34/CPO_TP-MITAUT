@@ -29,6 +29,11 @@ public class Calculator {
         Scanner sc = new Scanner(System.in);
         operateur = sc.nextInt();
         
+        if (operateur != 1 &&operateur != 2 &&operateur != 3 &&operateur != 4 &&operateur != 5 ); {
+                System.out.println("ERREUR RECOMMENCEZ");
+                System.exit(0);
+    }
+        
         System.out.println("Entrer votre premier nombre : ");
         operande1 = sc.nextFloat();
         
